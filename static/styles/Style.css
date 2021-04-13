@@ -1,0 +1,102 @@
+.bg
+{
+    display: flex;
+    width:  100vw;
+    height: 100vh;
+    background: url(../img/anh1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+   
+}
+.center
+{
+    position: absolute;
+    display:flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+    width: 60vw;
+    height: 80vh;
+    border: 10px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    box-shadow: -13px 10px 20px 4px black
+    /* box-shadow: x y blur scale color; */
+}
+.info{
+    display: inline;  
+    /* justify-content: flex-start; */
+    top: 0%;
+    left: 0%;
+    /* height: 100; */
+    width: 60%;
+    /* transform: (-100%, -30%);  */
+    background: url(../img/anh2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 30px 0px 0px 30px; 
+}
+.container{
+    top: 0%;
+    left: 50%;
+    width: 40%;
+    display: inline;
+    background-color:aliceblue;
+    border-radius: 0px 30px 30px 0px;
+}
+/* .line {
+    display: block;
+    top: 0%;
+    left: 0%;
+    width: 2%;
+    height: 100%;
+    background-color: red;
+} */
+.welcome
+{
+    margin-top: 5%;
+    width: 60%;
+    height: 10%;
+    border-radius: 0px 30px 30px 0px;
+    background-image: linear-gradient( to right,#007c42, #4447ad);
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+     
+    
+}
+.welcome h2{
+	/* margin: 15px 0; */
+	/* color: #333; */
+    color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.login-content{
+    
+    display: inline;
+	margin-top: 10%;
+    align-items:center ;
+    text-align: center;
+	
+    height: 40vh;
+    width: 25vw;
+}
+
+
+
+
+
+.input {
+    width: 200px;
+    height: 220px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
