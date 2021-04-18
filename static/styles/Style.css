@@ -3,7 +3,7 @@
     --primary-color:  linear-gradient( to right,#007c42, #4447ad);
     --text-color: rgb(25, 0, 255);
 }
-.bg
+body
 {
     display: flex;
     width:  100vw;
@@ -15,10 +15,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto;
-   
+    font-family: Poppins;
 }
-.center
+.block--center
 {
     position: absolute;
     display:flex;
@@ -34,7 +33,7 @@
     box-shadow: -13px 10px 20px 4px black
     /* box-shadow: x y blur scale color; */
 }
-.info{
+.block--info{
     /* display: inline;   */
     
     top: 0%;
@@ -47,7 +46,7 @@
     background-size:  cover;
     border-radius: 30px 0px 0px 30px; 
 }
-.info::before
+.block--info::before
 {
     content: "";
     position: absolute;
@@ -56,7 +55,7 @@
     background-color: #0000003d;
     right: -10px;
 }
-.container{
+.bock--login{
     top: 0%;
     left: 50%;
     width: 40%;
@@ -67,7 +66,7 @@
     /* position: relative; */
 }
 
-.welcome
+.bock--login .form-feid__welcome
 {
     display: flex;
     margin-top: 5%;
@@ -78,10 +77,9 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size:2px;
-    
+    /* font-size:2px; */
 }
-.welcome h2{
+.form-feid__welcome h2{
 	
     color: white;
 	text-transform: uppercase;
@@ -90,36 +88,35 @@
     font-weight: 300;
     text-align: center ;
 }
-.login-content{   
+.bock--login .form-feid__content{   
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     padding-top: 0px;
     position: relative; 
 }
-.login-content p 
+.form-feid__content .login-label 
 {
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 300;
     padding-top: 50px;
     color: var(--text-color);
     
 }
-.form-create p
-{
-    color: var(--text-color);
-    font-size: 20px;
-    padding-top: 20px;
-    
-    
-}
 
-.form-field {
+.form-feid__content .form-field {
     padding: 30px 0;
     position: relative;
     /* display: block; */
 }
-.form-field:first-child {  
+.form-feid__content .form-field:first-child {  
     margin-top: 100px;    
+}
+.form-field label 
+{
+    color: var(--text-color);
+    font-size: 25px;
+    position: absolute;
+    top: 0px; 
 }
 .form-field input  {
     width: 80%;
@@ -131,31 +128,13 @@
     border-bottom: 2px solid var(--text-color);
     outline: none;
     background: transparent;
+    font-size: 30px;
 }
-.form-field label 
-{
-    color: var(--text-color);
-    font-size: 25px;
-  
-    position: absolute;
-   
-     top: 0px; 
-    
-  
-    
-    
-}
-.form-field input:first-child
+/* .form-field input:first-child
 {
     margin-top: 50px;
-}
-
- .form-field i {
-    position:absolute;
-    color: solid rgb(25, 0, 255);
- }  
-
-.btn
+} */
+.form-feid__content .btn
 {
     display: inline-block;
     width: 30%;
@@ -168,6 +147,32 @@
     font-weight: 100;
     cursor: pointer;
 }
+
+.create-forgot .create-forgot--btn
+{
+    display: block;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    margin: auto; 
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid var(--text-color);
+    background:transparent; 
+    cursor: pointer;
+}
+.create-forgot .create-forgot--btn:last-child
+{
+    padding-top: 280px;
+}
+
+
+
+
+
+
 
 
 
