@@ -55,7 +55,7 @@ body
     background-color: #0000003d;
     right: -10px;
 }
-.bock--login{
+.block--content{
     top: 0%;
     left: 50%;
     width: 40%;
@@ -66,7 +66,7 @@ body
     /* position: relative; */
 }
 
-.bock--login .form-feid__welcome
+.block--content .form-feid__welcome
 {
     display: flex;
     margin-top: 5%;
@@ -88,7 +88,7 @@ body
     font-weight: 300;
     text-align: center ;
 }
-.bock--login .form-feid__content{   
+.block--content .form-feid__content{   
     width: 100%;
     /* height: 100%; */
     padding-top: 0px;
@@ -132,16 +132,24 @@ body
 
 .form-feid__content .btn
 {
-    display: inline-block;
-    width: 30%;
+    display: inline;
+    /* width: 30%; */
+    width: 40%;
     height: 50px;
+    border: 0;
     border-radius: 20px;
     background-color: #007c42;;
-    /* outline: none; */
+    text-decoration: none;
     color: white;
     font-size: 25px;
     font-weight: 100;
     cursor: pointer;
+    outline: none;
+    transition:  opacity 0.2s  ease-in;
+}
+.form-feid__content .btn:hover
+{
+    opacity: 0.8;
 }
 
 .create-forgot .create-forgot--btn
@@ -169,11 +177,9 @@ body
 }
 
 
-
-
-
-
-
-
-
+/* Register */
+.btn--register
+{
+    
+}
 
