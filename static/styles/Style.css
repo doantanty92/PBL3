@@ -92,17 +92,47 @@ body
 }
 .block--content .form-field__content{   
     width: 100%;
-    /* height: 100%; */
     padding-top: 0px;
     position: relative; 
+    
 }
-.form-field__content .login-label 
+
+
+.login-label--info
 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    /* height: 100px; */
     font-size: 35px;
     font-weight: 300;
-    padding-top: 50px;
     color: var(--text-color);
+    /* background-color: rebeccapurple; */
 }
+
+.error
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;  
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.error p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+    height: 100%;
+    border-radius: 10px;
+    background-color: red;
+    color: aliceblue;
+    
+
+}
+
 
 .form-field__content .form-field {
     padding: 30px 0;
@@ -110,7 +140,7 @@ body
     /* display: block; */
 }
 .form-field__content .form-field:first-child {  
-    margin-top: 60px;    
+    margin-top: 20px;    
 }
 .form-field label 
 {
@@ -165,30 +195,8 @@ body
     color: initial;
     color: var(--text-color);
     font-size: 20px;
-    margin-top: 230px;
+    margin-top: 190px;
     background:transparent; 
     cursor: pointer;
+   
 }
-
-/* .create-forgot .create-forgot--btn:last-child
-{
-    margin-top: 200px;
-}
-
-
-
-.form-field__welcome .forgot
-{
-    display: flex;
-    color: var(--text-color);
-    font-size: 20px;
-    font-weight: 00;
-    padding-top: 15px;
-    margin: auto; 
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 2px solid var(--text-color);
-    
-    margin-top: 200px;
-} */
