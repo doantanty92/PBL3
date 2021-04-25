@@ -103,36 +103,43 @@ body
     display: flex;
     justify-content: center;
     margin: 30px 0px;
-    /* height: 100px; */
+    margin-bottom: 10px;
     font-size: 35px;
     font-weight: 300;
     color: var(--text-color);
-    /* background-color: rebeccapurple; */
 }
 
-.error
+.messenge
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;  
-    margin-top: 20px;
-    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;  
+   
+    margin-bottom: 20px;
+    
+    
 }
-.error p {
+
+.messenge p
+{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
-    
     height: 100%;
     border-radius: 10px;
-    background-color: red;
-    color: aliceblue;
-    
-
+    color: white;
 }
-
+.messenge .error
+{
+    background-color: red;
+}
+.messenge .success
+{
+    background-color: #20b2aa;
+}
 
 .form-field__content .form-field {
     padding: 30px 0;
@@ -153,20 +160,21 @@ body
 .form-field input  {
     width: 80%;
     left: 10%;
-    font-size: large;
+    font-family: laura;
+    font-size: 25px;
     border-left: 0;
     border-right: 0;
     border-top: 0;
     border-bottom: 2px solid var(--text-color);
     outline: none;
     background: transparent;
-    font-size: 20px;
+    
 }
 
 .form-field__content .btn
 {
     display: inline;
-    /* width: 30%; */
+    font-family: laura;
     width: 40%;
     height: 50px;
     border: 0;
